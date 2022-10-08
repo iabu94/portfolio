@@ -12,8 +12,10 @@ export default function Home() {
         />
         <link rel="icon" href="/favicon1.ico" />
       </Head>
-      <div className="h-screen bg-black text-white flex flex-col justify-center items-center">
-        <h1 className="text-5xl">Hi, This is Abdullah Mansoor.</h1>
+      <div className="h-screen bg-black text-white flex flex-col justify-center items-center text-center">
+        <h1 className="text-5xl">
+          Hi, This is <span className="">Abdullah Mansoor</span>.
+        </h1>
         <h4 className="text-3xl">This website is under construction.</h4>
         <h4 className="text-2xl">
           You can always catch me on{" "}
