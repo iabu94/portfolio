@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -29,6 +30,11 @@ export default function Home() {
             +94719994818
           </Link>
         </h4>
+        <Image
+          src="https://www.gifs-paradise.com/animations/animated-gifs-under-construction-221.gif"
+          width="100"
+          height="120"
+        />
       </div>
     </div>
   );
